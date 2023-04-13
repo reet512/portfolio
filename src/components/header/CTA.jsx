@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import CV from ".././../assets/Reet_Resume(2023).pdf";
+import CV from ".././../assets/Reet_Resume (2023).pdf";
 const CTA = () => {
   return (
     <div className="cta">
