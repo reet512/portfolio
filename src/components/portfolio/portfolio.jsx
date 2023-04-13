@@ -1,3 +1,4 @@
+
 /** @format */
 
 import React from "react";
@@ -7,22 +8,23 @@ import IMG2 from "./../../assets/portfolio2.png";
 import IMG3 from "./../../assets/portfolio3.png";
 import IMG4 from "./../../assets/portfolio4.png";
 import IMG5 from "./../../assets/portfolio5.png";
+import IMG6 from "./../../assets/portfolio6.png";
+
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "TIC-TAC-TOE",
-    github: "https://github.com/reet512/TIC-TAC-TOE",
-    
+    title: "Expense Reimbursement System",
+    github: "https://github.com/reet512/ExpenseReimbursement",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Blog",
-    github: "https://github.com/reet512/blog",
-    
-  },
+    title: "YoutubeDownload Extension",
+    github: "https://github.com/raireet/youtube-downloader-extension",
+  }
+  ,
   {
     id: 3,
     image: IMG3,
@@ -31,16 +33,26 @@ const data = [
     
   },
   {
-    id: 4,image: IMG4,
-    title: "ExpenseReimbursement System",
-    github: "https://github.com/reet512/ExpenseReimbursement",
-  },
+    id: 4,
+    image: IMG4,
+    title: "TIC-TAC-TOE",
+    github: "https://github.com/reet512/TIC-TAC-TOE",
     
+  },
   {
     id: 5,
     image: IMG5,
-    title: "YoutubeDownload Extension",
-    github: "https://github.com/raireet/youtube-downloader-extension",
+    title: "Blog",
+    github: "https://github.com/reet512/blog",
+    
+  }
+  ,
+    
+  {
+    id: 6,
+    image: IMG6,
+    title: "Portfolio",
+    github: "https://github.com/reet512/portfolio",
   }
 ];
 
